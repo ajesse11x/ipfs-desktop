@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ipfsd-ctl > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - winston > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > js-ipfs-http-client > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > js-ipfs-http-client > peer-id > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > js-ipfs-http-client > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > js-ipfs-http-client > peer-info > peer-id > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > js-ipfs-http-client > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > js-ipfs-http-client > peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
+    - ipfsd-ctl > js-ipfs-http-client > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2020-05-01T00:26:15.149Z'
