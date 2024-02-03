@@ -78,7 +78,7 @@
     "electron-updater": "^4.0.14",
     "fix-path": "^2.1.0",
     "fs-extra": "^8.1.0",
-    "go-ipfs-dep": "0.4.21",
+    "go-ipfs-dep": "0.7.0",
     "i18next": "^17.0.4",
     "i18next-electron-language-detector": "0.0.10",
     "i18next-icu": "^1.1.2",
